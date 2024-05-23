@@ -31,8 +31,16 @@ lire les infos principales du de l'album soit artiste, titre nb
 lire les morceaux en reprenant ton code
 tout le fichier est désormais analysé mais on ne prend pas en compte nb
 
-# Etape 5: 05_album_utilisation_nb.py
-prise en compte de nb qui doit donner le nombre de morceau
+# Etape 5: 05_album_utilisation_nb.py ( peut etre optionel)
+prise en compte de nb qui doit donner le nombre de morceaux
 
-# Etape 6: correction de bug
+# Etape 6: correction de bug (optionel et complexe surement)
 il y a des bugs possible dans le code
+il faut utiliser
+`if ligne.startswith(artiste):`
+pour etre sur que la ligne commence par "artiste: " (de meme pour le reste)
+Par exemple si tu as
+
+artiste: Bob nb Dylan
+
+Cela sera vu comme nb
