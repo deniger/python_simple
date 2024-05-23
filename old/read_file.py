@@ -70,7 +70,7 @@ def Albumentier(ligne):
 
 
 # Step 1: tu ouvres le fichier
-file = open("album.txt",'r')
+file = open("../album/album.txt", 'r')
 
 # Step 1: tu lis la ligne 1 soit "artiste : artiste :  Bob Dylan"
 ligne = file.readline()

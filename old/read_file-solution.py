@@ -3,7 +3,7 @@
 
 # la logique devrait etre
 # tu ouvres le fichier
-file = open("album.txt",'r')
+file = open("../album/album.txt", 'r')
 
 # tu lis la partie album avec l'artiste le titre et nb
 # il faut faire des readline jusqu'a avoir nb

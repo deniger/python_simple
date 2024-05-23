@@ -2,7 +2,7 @@
 # pour lire toutes les lignes d'un fchier
 print("---------------------------")
 print("Solution qui ne fait pas de strip et donc avec les retours chariots")
-file = open("album.txt",'r')
+file = open("../album/album.txt", 'r')
 ligne=file.readline()
 tableau=[]
 while ligne!="":
@@ -13,7 +13,7 @@ print("fichier lu avec readLine et sans strip est \n"+str(tableau))
 print()
 print("---------------------------")
 print("Solution qui fait appel à strip et donc sans les retours chariots")
-file = open("album.txt",'r')
+file = open("../album/album.txt", 'r')
 ligne=file.readline();
 tableau=[]
 while ligne!="":
@@ -27,7 +27,7 @@ print()
 print("---------------------------")
 print("il est possible de lire toutes les lignes d'un coup")
 
-file = open("album.txt",'r')
+file = open("../album/album.txt", 'r')
 lignes=file.readlines()
 tableau=[]
 for line in lignes:
@@ -40,7 +40,7 @@ print()
 print("---------------------------")
 print("Solution la plus simple")
 # on lit le fichier
-file = open("album.txt",'r')
+file = open("../album/album.txt", 'r')
 # et on split
 tableau=file.read().splitlines()
 file.close()
