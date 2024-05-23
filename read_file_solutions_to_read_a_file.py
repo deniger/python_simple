@@ -33,5 +33,16 @@ tableau=[]
 for line in lignes:
     tableau.append(line.strip())
 file.close()
-print("fichier lu d'un coupt\n"+str(tableau))
+print("fichier lu d'un coup\n"+str(tableau))
+
+
+print()
+print("---------------------------")
+print("Solution la plus simple")
+# on lit le fichier
+file = open("album.txt",'r')
+# et on split
+tableau=file.read().splitlines()
+file.close()
+print("fichier lu très simple\n"+str(tableau))
 
