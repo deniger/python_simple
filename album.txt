@@ -1,0 +1,23 @@
+artiste :  Bob Dylan
+titre : Bob Dylan Greatest Hits
+nb :  10
+morceau : Rainy day women
+duree : 274
+morceau : Blowin' in the wind
+duree :  167
+morceau : The times they are a changin'
+duree :  192
+morceau :  It aint me babe
+duree :  210
+morceau :  Like a rolling stone
+duree :  419
+morceau :  Mr. Tambourine man
+duree :  325
+morceau :  Subterranean homesick blues
+duree : 137
+morceau :  I want you
+duree : 190
+morceau : Positively 4th street
+duree : 230
+morceau : Just like a woman
+duree : 292
