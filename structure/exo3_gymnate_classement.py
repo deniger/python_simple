@@ -59,3 +59,4 @@ print(output)
 
 output = nombre_de_gymnaste_total_avec_dico()
 print("nombre total de gymnaste: " + str(output))
+
