@@ -18,7 +18,8 @@ def classement(texte):
 # ici tu utilises la variables clubs_dico
 def classement_avec_dico(texte):
     resultat = ''
-    # ici tu utilises clubs_dico au lieu de club. Tu verras ce sera plus simple :)
+    # ici tu utilises le dictionnaire clubs_dico au lieu de club.
+    # Tu verras ce sera plus simple :) C'est pour illustrer l'intéret d'un dictionnaire ( au delà des perfs)
     # a toi
     return resultat
 
@@ -29,6 +30,12 @@ def nombre_de_gymnaste_total_avec_dico():
     # c'est juste pour que tu itères sur les valeurs d'un dictionnaire.
     # a toi
     return nombre
+
+# tansforme liste de clubs soit la variable clubs en dictionnaire identique a club_disco
+def renvoie_tableau_transforme_en_dictionnaire():
+    resultat=  {}
+    # a toi
+    return resultat
 
 
 # liste de clube. "gymnastes" est le nombre de gymnastes par club
@@ -49,14 +56,21 @@ clubs_dico = {
     "lyon": {"nom": "lyon", "departement": '69', "gymnastes": 120},
 }
 
+# Partie 1
 output = classement("albens rumilly lyon")
-print("le classement est: ")
+print("le classement est (doit renvoyer 1. Albens,...): ")
 print(output)
 
+# Partie 2
 output = classement_avec_dico("albens rumilly lyon")
-print("le classement avec les dico est: ")
+print("le classement avec les dico est (doit renvoyer 1. Albens,...): ")
 print(output)
 
+# Partie 3. Juste pour que itères sur les valeurs d'un dictionnaire.
 output = nombre_de_gymnaste_total_avec_dico()
-print("nombre total de gymnaste: " + str(output))
+print("nombre total de gymnaste (doit etre 195): " + str(output))
 
+# Partie 4
+output = renvoie_tableau_transforme_en_dictionnaire()
+print("dictionnaire des clubs rangés par nom du club: " + str(output))
+print("doit etre le meme dico que : " + str(clubs_dico))
