@@ -15,6 +15,7 @@ def nombre_gymnaste_par_department(dpt):
 def club_avec_le_plus_de_gymnaste():
     club = ''
     # a toi
+    # aide: pour calcul un max tu peux commencer avec une valeur bidon comme -1 et après tu compares...
     return club
 
 
