@@ -2,14 +2,14 @@
 Voir La doc: https://fr.wikipedia.org/wiki/Comma-separated_values
 
 Dans l'exo 1, il faut faire une fonction qui peut lire un fichier csv.
-La  lecture du fichier donnera une liste de dico du style
+La  lecture du fichier donnera une liste de dicos du style:
 
 ```
 [
 {header1=value11,header2=value12,header3=value13},
 {header1=value21,header2=value22,header3=value23},
 ...etc
-{header1=valuen1,header2=valuen2,header3=valuen3},
+{header1=valueN1,header2=valueN2,header3=valueN3}
 ]
 ```
 
