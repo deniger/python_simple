@@ -1,0 +1,12 @@
+# A comment line starts with # and will be ignore
+# We suppose that the char , is only used as a separator and no
+# The first no commented line will give the headers
+Club,Niveau,Nombre de Gymnastes
+# Albens club ( this line is a comment an must be ignored)
+ALbens,Niveau 2,10
+Aix-les-Bains,Niveau 4,20
+# empty line must be ignored as well
+
+Montmélian,Niveau 3,15
+
+# end of file
