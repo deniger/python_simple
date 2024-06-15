@@ -71,13 +71,18 @@ Annecy,Haute-Savoie,Niveau 1,50
 Rumilly,Haute-Savoie,Niveau 2,50
 ```
 
-# Exo 3: comparer des fichiers
+# Exo 3: comparer des fichiers texte ligne par ligne
 
 Ecrire une fonction qui permet de donner les différences entre 2 fichiers.
 - 
 - si meme fichier la fonction devra donner "aucune différence entre ..."
 - Si les fichiers n'ont pas le meme nombre de lignes il faut écrire "nombre de lignes differents: x dans fichier1 et y dans fichier2 " et ensuite comparer sur le nombre de ligne commun (minimum)
 - indiquer le nombre de lignes différentes  et donner la liste des numéros de lignes avec différences
+
+Les fichiers pour tester sont:
+- [compare1.txt](./compare1.txt)
+- [compare2.txt](./compare2.txt)
+- [compare3.txt](./compare3.txt)
 
 Exemples:
 
