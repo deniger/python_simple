@@ -113,3 +113,60 @@ Exemples:
 
 Proposer des objets Fichier et Ligne qui permettront de représenter le contenu du fichier csv y compris les
 commentaires.
+
+
+# Exo 5: objet simple ( pas terrible comme example...)
+
+# Classe Club
+Ecrire une classe Club qui a les attributs suivants:
+- nom (string)
+- membres un tableau de Personne ( voir ci dessous)
+
+Cette classe a un constructeur qui impose nom ( pas de club sans nom)
+
+Cette classe aura 5 methodes:
+- ajouteMembre(Person)
+- enleveMembre(nom) ( par simplicite on suppose que le nom d'un membre est unique)
+- nombreMembre() -> renvoie le nombre de membre
+- affiche() -> print "<nom>, nombre de membres=<nombre de membres>"
+- afficheMembres() -> print tous les noms des membres, un par ligne ( pas d'ordre particulier et utiliser la méthode `affiche` de Personne voir ci dessous)
+
+# Classe Personne
+Personne est une classe avec 2 attributs:
+- nom
+- prenom
+
+Cette classe a un constructeur qui demande prenom et nom ( on ne peut pas créer de personne sans donner prenom et nom)
+
+et une methode affiche qui va `print` "prenom nom" de la personne
+
+# Classe ClubGym
+
+une classe ClubGym qui herite de Club.
+Un paramètre en plus qui est niveau (un entier).
+Le constructeur de cette classe aura 2 parametres: nom et niveau.
+
+Cette classe va devoir:
+- surcharger ( ou redéfinir) la méthode affiche et devra imprimer "<nom>, nombre de membres=<nombre de membres>, niveau=<niveau>"
+- ajouter 2 methodes augmenteNiveau ( ajoute 1 à niveau) et diminueNiveau
+
+
+
+# tests
+Créer un tableau de Clubs
+
+
+```python
+clubs=[]
+clubs.append(Club("Alby"))
+clubs.append(ClubGym("Albens",3))
+```
+
+parcourir le tableau club et appeler la méthode `affiche()`
+
+
+
+
+
+
+
