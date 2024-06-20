@@ -135,6 +135,7 @@ Cette classe aura 5 methodes:
 Personne est une classe avec 2 attributs:
 - nom
 - prenom
+- age
 
 Cette classe a un constructeur qui demande prenom et nom ( on ne peut pas créer de personne sans donner prenom et nom)
 
@@ -150,6 +151,8 @@ Cette classe va devoir:
 - surcharger ( ou redéfinir) la méthode affiche et devra imprimer "<nom>, nombre de membres=<nombre de membres>, niveau=<niveau>"
 - ajouter 2 methodes augmenteNiveau ( ajoute 1 à niveau) et diminueNiveau
 
+
+# creer methode get_nombre_membre, get_nombre_membre_mineur, get_nombre_membre_majeur
 
 
 # tests
